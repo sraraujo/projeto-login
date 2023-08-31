@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px) {
+
+    body{
+        background-color: burlywood;
+    }
+
+    div#area{
+        width: 80vw;
+        height: 340px;
+        
+        display: flex;
+        transition: 0.2s linear;
+    }
+
+    section#imagem{
+        width: calc(40%);
+        height: 100%;
+
+        border-radius: 30px 0 0 30px;
+    }
+
+    section#login{
+        width: calc(80%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body{
+        background-color: rgb(10, 107, 107);    
+    }
+
+    div#area{
+        width: 900px;
+        height: 350px;
+        margin: 10px;
+        
+        display: flex;
+        flex-direction: row-reverse;       
+        transition: 0.2s linear;
+    }
+
+    section#imagem{
+        width: calc(50%);
+        border-radius: 0 30px 30px 0;
+    }
+
+    section#login{
+        width: calc(50%);
+    }    
+}
+
+@media print {
+
+    div#area{
+        height: 500px;
+        border: 1px solid black;
+    }
+
+    section#imagem{
+        height: 20%;
+    }
+
+    p.p-dados-login,
+    input.bt-login{
+        border: 1px solid black;
+    }
+
+    main::after{
+        content: 'Fonte site: https://github.com/sraraujo/projeto-login';
+    }
+}
