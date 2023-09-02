@@ -63,7 +63,7 @@
 
     p.p-dados-login,
     input.bt-login{
-        border: 1px solid black;
+        border: 1px solid rgba(0, 0, 0, 0.431);
     }
 
     main::after{
