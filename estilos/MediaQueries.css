@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
 
     body{
-        background-color: burlywood;
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     div#area{
@@ -27,7 +27,7 @@
 @media screen and (min-width: 992px) {
 
     body{
-        background-color: rgb(10, 107, 107);    
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     div#area{

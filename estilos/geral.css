@@ -10,7 +10,7 @@
     }
     
     body{
-        background-color: #5F2C82;
+        background-color: #5f2c82;
     }
     
     div#area{
@@ -22,7 +22,9 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        transition: 0.2s linear;
+        
+        transition: width 0.3s, heigth 0.3s;
+        transition-timing-function: ease;
     
         border-radius: 30px;
         background-color: white;
